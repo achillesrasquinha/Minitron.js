@@ -1,0 +1,38 @@
+{
+  "name": "minitron.js",
+  "version": "1.0.0",
+  "description": "A dot-matrix display-like javascript plugin.",
+  "main": "dist/minitron.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achillesrasquinha/Minitron.js.git"
+  },
+  "keywords": [
+    "dot-matrix",
+    "display",
+    "javascript",
+    "animation",
+    "animate",
+    "plugin",
+    "light-weight",
+    "scroll",
+    "relay",
+    "led",
+    "text",
+    "canvas",
+    "message",
+    "notification"
+  ],
+  "author": "Achilles Rasquinha <achillesrasquinha@gmail.com> (http://achillesrasquinha.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achillesrasquinha/Minitron.js/issues"
+  },
+  "homepage": "https://achillesrasquinha.github.io/Minitron.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^1.5.4"
+  }
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords"    content="{% for i in site.keywords %}{{ i }} {% endfor %}">
+    <meta name="theme-color" content="{{ site.color_primary }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  </head>
+  <body>

@@ -1,0 +1,106 @@
+---
+layout: default
+title : A dot-matrix display-like javascript plugin.
+---
+<div class="jumbotron jumbotron-brand text-center">
+  <div class="container">
+    <h1 class="font-bold">Minitron.js</h1>
+    <h5></h5>
+    <a aria-label="Star achillesrasquinha/Minitron.js on GitHub" data-count-aria-label="# stargazers on GitHub" data-count-api="/repos/achillesrasquinha/Minitron.js#stargazers_count" data-count-href="/achillesrasquinha/Minitron.js/stargazers" data-style="mega" data-icon="octicon-star" href="https://github.com/achillesrasquinha/Minitron.js" class="github-button">Star</a>
+    <a aria-label="Fork achillesrasquinha/Minitron.js on GitHub" data-count-aria-label="# forks on GitHub" data-count-api="/repos/achillesrasquinha/Minitron.js#forks_count" data-count-href="/achillesrasquinha/Minitron.js/network" data-style="mega" data-icon="octicon-repo-forked" href="https://github.com/achillesrasquinha/Minitron.js/fork" class="github-button">Fork</a>
+  </div>
+</div>
+<div class="container">
+  <div class="page-header no-border no-padding">
+    <h3 class="font-bold">Installation</h3>
+  </div>
+  <div class="panel panel-default no-border no-shadow">
+    <div class="panel-body">
+      <p class="font-bold">1. Clone the repository</p>
+{% highlight shell %}
+git clone https://github.com/achillesrasquinha/Minitron.js.git
+{% endhighlight %}
+      <p class="font-bold">2. Install using npm</p>
+{% highlight shell %}
+npm install minitron.js
+{% endhighlight %}
+      <p class="font-bold">3. Install using bower</p>
+{% highlight shell %}
+bower install minitron.js
+{% endhighlight %}
+      <p>In your HTML file</p>
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    ...
+  </head>
+  <body>
+    ...
+    <script src="/path/to/minitron.js"></script>
+  </body>
+</html>
+{% endhighlight    %}
+    </div>
+  </div>
+
+  <!-- Usage -->
+  <div class="page-header no-border no-padding">
+    <h3 class="font-bold">Usage</h3>
+  </div>
+  <div class="panel panel-default no-border no-shadow">
+    <div class="panel-body">
+      <p>A template declaration would be as follows</p>
+{% highlight javascript %}
+Minitron.make("<your_message>", { /*<your_options>*/ });
+{% endhighlight %}
+    </div>
+  </div>
+
+  <!-- Methods -->
+  <div class="page-header no-border no-padding">
+    <h3 class="font-bold">Methods</h3>
+  </div>
+  <div class="panel panel-default no-border no-shadow">
+    <div class="panel-body">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Return</th>
+              <th>Method</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Minitron</td>
+              <td><code>setMessage(message)</code></td>
+              <td>Initializes/Updates the message to-be displayed.</td>
+            </tr>
+            <tr>
+              <td>Minitron</td>
+              <td><code>setOptions(options)</code></td>
+              <td>Pass your options to <code>settings</code> to change them any time.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Options -->
+  <div class="page-header no-border no-padding">
+    <h3 class="font-bold">Options</h3>
+  </div>
+  <div class="panel panel-default no-border no-shadow">
+    <div class="panel-body">
+{% highlight javascript %}
+Minitron.make("<your_message_string>", {
+    color: '#00FFFF' /*default*/ | "<your_hex_string>",
+    speed: 50        /*default*/ | /*<your_speed> higher the speed value, slower to render*/
+});
+{% endhighlight %}
+    </div>
+  </div>
+</div>

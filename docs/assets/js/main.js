@@ -1,0 +1,1 @@
+Minitron.make('Minitron.js | A dotmatrix display like javascript plugin.');
