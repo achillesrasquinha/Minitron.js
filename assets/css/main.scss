@@ -1,0 +1,66 @@
+---
+
+---
+$font-weight-bold          : 700;
+
+$html-font-size            : 62.5%;
+
+$body-font-family          : "Open Sans";
+$body-font-size            : 1.4rem;
+$body-margin-top           :  40px;
+
+$copyright-padding-x       : 0.0rem;
+$copyright-padding-y       : 1.5rem;
+
+$copyright-background-color: #10100E;
+$copyright-color           : #FFFFFF;
+
+$copyright-font-size       : 1.0rem;
+$copyright-letter-spacing  : .05rem;
+
+html {
+    font-size              : $html-font-size;
+}
+
+body {
+    font-family            : $body-font-family;
+    font-size              : $body-font-size;
+    margin-top             : $body-margin-top;
+}
+
+.font-bold {
+    font-weight            : $font-weight-bold;
+}
+
+.no-margin {
+    margin                 : 0 !important;
+}
+
+.no-padding {
+    padding                : 0 !important;
+}
+
+.no-border {
+    border                 : none;
+}
+
+.no-shadow {
+    box-shadow             : none;
+}
+
+.jumbotron-brand {
+    background-image       : url("{{ site.baseurl }}/assets/img/texture-200x200.png");
+    background-repeat      : repeat;
+    color                  : #FFFFFF;
+}
+
+.copyright {    
+    padding                : $copyright-padding-y $copyright-padding-x;
+    
+    font-size              : $copyright-font-size;
+    letter-spacing         : $copyright-letter-spacing;
+    text-align             : center;
+
+    background-color       : $copyright-background-color;
+    color                  : $copyright-color;
+}
